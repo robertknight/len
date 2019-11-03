@@ -1,0 +1,15 @@
+[package]
+name = "len"
+version = "0.1.0"
+description = "Command to print length of stdin in a human-friendly format"
+authors = ["Robert Knight <robertknight@gmail.com>"]
+edition = "2018"
+license = "BSD-2-Clause"
+homepage = "https://github.com/robertknight/len"
+repository = "https://github.com/robertknight/len.git"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+atty = "0.2"
+bytesize = "1.0.0"
